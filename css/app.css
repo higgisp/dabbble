@@ -1,3 +1,21 @@
 .navbar {
-  margin-top: 20px;
+	margin-top: 20px;
+}
+
+.shot .title {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.stats {
+  background: #CCC;
+  opacity: 0.5;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.stats .stat {
+  padding: 5px;
 }
